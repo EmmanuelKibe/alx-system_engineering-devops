@@ -1,4 +1,2 @@
 #!/bin/bash
-# Check if SUDO_USER is set; if not, fall back to the current user
-USER_TO_GREET=${SUDO_USER:-$(whoami)}
-echo "hello $USER_TO_GREET"
+echo "hello $(whoami)"
