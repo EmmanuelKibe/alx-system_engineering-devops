@@ -1,3 +1,2 @@
 #!/bin/bash
-# A script that prints hello followed by the current username
 echo "hello $(whoami)"
