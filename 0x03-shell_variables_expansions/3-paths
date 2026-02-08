@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "$PATH" | tr ':' '\n' | wc -l
+# Replace colons with newlines, remove empty lines, and count the results
+echo "$PATH" | tr ':' '\n' | grep -v '^$' | wc -l
